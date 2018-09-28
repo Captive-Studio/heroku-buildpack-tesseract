@@ -9,7 +9,7 @@ The first step consists in allowing your Heroku app to use multiple buildpacks. 
 1. setup your app as  
     ```
     heroku buildpacks:set heroku/LANG
-    heroku buildpacks:add https://github.com/matteotiziano/heroku-buildpack-tesseract
+    heroku buildpacks:add https://github.com/Captive-Studio/heroku-buildpack-tesseract
     ```
 	
     where `LANG` is the language used by your app (e.g., `ruby`, `python`, or `nodejs`). A complete list of Heroku buildpacks can be found [here](https://devcenter.heroku.com/articles/buildpacks).
@@ -26,5 +26,5 @@ This fork solves the [issue](https://github.com/fouady/RoR-Tesseract-Heroku/issu
 MIT License.
 
 Original work Copyright (c) 2013 Marco Azimonti  
-Modified work Copyright (c) 2015 Matteo Maggioni
+Modified work Copyright (c) 2018 Clément Prod'homme
 
